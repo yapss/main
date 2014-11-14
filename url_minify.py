@@ -3,7 +3,7 @@ import MySQLdb as mysql
 from datetime import datetime
 
 # MySQL connection string
-conn = mysql.connect(host="localhost", user="bkrueger", passwd="omg134!", db="urls")
+conn = mysql.connect(host="localhost", user="yapss", passwd="<insert_pw_here>", db="urls")
 
 # Arbitrary stuff
 original_url = raw_input("Input URL: ")
